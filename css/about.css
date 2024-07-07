@@ -1,0 +1,58 @@
+.parallax {
+  /* The image used */
+  background-image:linear-gradient(rgba(242, 25, 25, 0.8),
+                       rgba(93, 4, 4, 0.8)), url("../img/export.jpg");
+
+  /* Set a specific height */
+  min-height: 100vh;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+#about
+{
+    padding-top: 130px;
+ 
+}
+#about h1
+{
+   font-family:cursive;
+    font-size: 3rem;
+    color:white;
+}
+#about h6
+{
+      font-size: 1.4rem;
+    color:white;
+}
+#about p
+{
+   font-size: 1.2rem;
+    color:white; 
+    text-align: justify;
+}
+.certified
+{
+    margin-top: 120px;
+
+}
+.certified p
+{
+    margin-top: 30px;
+       text-align: justify;
+         font-size: 1.2rem;
+}
+
+#owl-demo .item{
+  margin: 3px;
+ 
+}
+#owl-demo .item img{
+  display: block;
+  width: auto;
+  height: 200px;
+}
